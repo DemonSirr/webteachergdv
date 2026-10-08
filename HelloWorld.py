@@ -42,3 +42,33 @@ n = 10
 #n = n + 1
 n =+ 1
 print(n)
+
+#n = 0
+#while n < 10:
+#    n += 1
+#    print (f'number:{n}')
+
+"""
+i = 1
+j = 1
+while i < 10:
+    while j < 10:
+        print(i * j, end="\t")
+        j += 1
+    i += 1
+    j = 1
+    print("\n")
+"""
+"""
+c1 = "ab"
+c2 = "cd"
+for c in c1:
+    for s in c2:
+        print(f'{c}{s}')
+"""
+
+for i in [1,2,3,4]:
+    if i == 3:
+        continue
+    
+    print(f'number: {i}')
