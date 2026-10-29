@@ -1,0 +1,9 @@
+#python -m venv .venv
+#pip install django
+#django-admin startproject app
+#cd app
+#python manage.py runser
+#python manage.py migrate
+#python manage.py createsuperuser
+
+req.txt  django==6.1.2
